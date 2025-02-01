@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(176, 234, 234);
+}
+
+footer {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+
+img {
+    width: 90px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.hi {
+    margin-right: 20px;
+    text-overflow: 20px;
+    margin-top: 10px;
+}
+
+section p {
+    margin-left: 140px;
+}
+
+header h1 {
+    margin-left: 100px;
+}
+
+section h2 {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+nav {
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: rgb(207, 246, 246);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    border-width: 7px;
+    margin-top: 20px;
+}
+
+/* Hover Effect */
+nav a:hover {
+   
+    box-shadow: 0px 0px 10px rgb(167, 244, 244);
+    background-color: rgb(167, 244, 244);
+}
+form input:hover {
+   
+    box-shadow: 0px 0px 10px rgb(167, 244, 244);
+    background-color: rgb(109, 149, 149);
+}
+form:hover {
+   
+    box-shadow: 0px 0px 10px rgb(167, 244, 244);
+    background-color: rgb(5, 147, 147);
+}
+
+/* Scroll Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-out;
+    animation-fill-mode: forwards;
+}
+
+.hidden:nth-of-type(1) {
+    animation-delay: 0.2s;
+}
+
+.hidden:nth-of-type(2) {
+    animation-delay: 0.4s;
+}
+
+.hidden:nth-of-type(3) {
+    animation-delay: 0.6s;
+}
+
+.hidden:nth-of-type(4) {
+    animation-delay: 0.8s;
+}
+form{
+    margin-left: 150px ;
+    background-color: rgb(208, 233, 233);
+    border-color: rgb(235, 244, 252);
+    border-radius: 6px;
+    width: 400px;
+    height: 250px;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust spacing */
+  
+}
+
+label {
+    width: 120px; /* Set a fixed width for labels */
+    text-align: right; /* Align label text */
+}
+
+input {
+    flex: 1; /* Make input take available space */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.ele{
+    background-color: transparent; 
+    opacity: 0.5; 
+}
